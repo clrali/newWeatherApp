@@ -41,10 +41,10 @@ let weather = {
         }); 
 
     // allows the user to search by pressing the enter key (need to fix)
-    document
-    .querySelector(".search-bar")
-    .addEventListener("keyup", function(event) {
-        if(eventKey == "Enter"){
-            weather.search(); 
-        }
-    });
+    // document
+    // .querySelector(".search-bar")
+    // .addEventListener("keyup", function(event) {
+    //     if(eventKey == "Enter"){
+    //         weather.search(); 
+    //     }
+    // });
