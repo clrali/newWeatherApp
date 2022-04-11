@@ -4,7 +4,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: azure;
     font-family: 'Roboto Mono', monospace;
     background-image: url('https://source.unsplash.com/random/1600x900/?landscape');
     font-size: large;
@@ -53,7 +52,8 @@ button:hover {
 }
 
 .flex {
-    text-align: center;display: flex;
+    text-align: center;
+    display: flex;
 }
 
 .description {

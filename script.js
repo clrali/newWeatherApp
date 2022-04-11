@@ -1,5 +1,6 @@
 let weather = {
     "apiKey":"ccf25a80eb96e2151835e9d943fb5714",
+    // get the data for a certain city from the api 
     fetchWeather: function(city) {
         fetch(
             "https://api.openweathermap.org/data/2.5/weather?q="
@@ -39,7 +40,7 @@ let weather = {
             weather.search();
         }); 
 
-    // allows the user to search by pressing the enter key 
+    // allows the user to search by pressing the enter key (need to fix)
     document
     .querySelector(".search-bar")
     .addEventListener("keyup", function(event) {
